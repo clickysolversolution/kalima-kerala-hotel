@@ -53,3 +53,6 @@ A blazing-fast, lightweight, zero-dependency, and mobile-first website for **Kal
 - **To add/replace dish photos:** Place your image file in `assets/images/` and update the `image:` property in `assets/js/data/menuData.js`.
 - **To change prices or items:** Edit `assets/js/data/menuData.js` directly.
 - **To change address or phone number:** Edit `assets/js/data/restaurantData.js`.
+=======
+# kalima-kerala-hotel
+website for kalima keral hotel chennai
