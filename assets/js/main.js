@@ -89,7 +89,7 @@ function renderSpecials() {
   const specialsGrid = document.getElementById('specialsGrid');
   if (!specialsGrid) return;
 
-  const specials = menuItems.filter(item => item.isSpecial).slice(0, 6);
+  const specials = menuItems.filter(item => item.isSpecial);
 
   specialsGrid.innerHTML = specials.map(item => `
     <article class="special-card">
@@ -172,7 +172,7 @@ function renderMenuItems() {
     menuGrid.innerHTML = `
       <div style="grid-column: 1/-1; text-align: center; padding: 3rem 1rem; color: #64748b;">
         <p style="font-size: 1.2rem; font-weight: 600; margin-bottom: 0.5rem;">No dishes match your search "${state.searchQuery}"</p>
-        <p>Try searching for "Biryani", "Porotta", "Beef", or "Karimeen"</p>
+        <p>Try searching for "Biryani", "Kothu Porotta", "Ayala Meen", or "Veg Thali"</p>
       </div>
     `;
     return;
@@ -215,6 +215,15 @@ function initSearchAndFilter() {
   }
 }
 
+function getEffectiveWhatsappNumber() {
+  const params = new URLSearchParams(window.location.search);
+  const testPhone = params.get('test_phone');
+  if (testPhone) {
+    return testPhone.replace(/[^0-9]/g, '');
+  }
+  return restaurantInfo.contact.whatsappNumber;
+}
+
 /* ==========================================================================
    ORDER VIA WHATSAPP ACTION DISPATCHER
    ========================================================================== */
@@ -225,9 +234,10 @@ function attachOrderButtons(container) {
       const item = menuItems.find(i => i.id === itemId);
       if (!item) return;
 
+      const targetNumber = getEffectiveWhatsappNumber();
       const msg = `Hello *${restaurantInfo.name}*, I would like to order:%0A%0A🍛 *Item:* ${encodeURIComponent(item.name)}%0A💰 *Price:* ₹${item.price}%0A📍 *Location:* ${encodeURIComponent(restaurantInfo.location.addressLine1 + ', Thousand Lights, Chennai')}%0A%0APlease let me know delivery / dine-in availability.`;
       
-      const whatsappUrl = `https://wa.me/${restaurantInfo.contact.whatsappNumber}?text=${msg}`;
+      const whatsappUrl = `https://wa.me/${targetNumber}?text=${msg}`;
       window.open(whatsappUrl, '_blank');
     });
   });
@@ -327,7 +337,8 @@ function initBookingModal() {
         `👥 *Guests:* ${encodeURIComponent(guests)} People%0A` +
         `📝 *Special Requests / Dishes:* ${encodeURIComponent(notes)}`;
 
-      const whatsappUrl = `https://wa.me/${restaurantInfo.contact.whatsappNumber}?text=${bookingMsg}`;
+      const targetNumber = getEffectiveWhatsappNumber();
+      const whatsappUrl = `https://wa.me/${targetNumber}?text=${bookingMsg}`;
       window.open(whatsappUrl, '_blank');
       modal.classList.remove('active');
       bookingForm.reset();

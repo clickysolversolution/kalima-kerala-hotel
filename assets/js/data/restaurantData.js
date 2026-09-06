@@ -8,9 +8,9 @@ export const restaurantInfo = {
   subtitle: "Savor the rich heritage of God's Own Country in Thousand Lights, Chennai",
   
   contact: {
-    phone: "+91 98940 80389",
-    rawPhone: "+919894080389",
-    whatsappNumber: "919894080389",
+    phone: "+91 86100 11680",
+    rawPhone: "+918610011680",
+    whatsappNumber: "918610011680",
     whatsappDefaultMsg: "Hello Kalima Kerala Kitchen, I would like to place an order / inquire about table reservation.",
     email: "contact@kalimakitchen.com"
   },
@@ -44,6 +44,6 @@ export const restaurantInfo = {
   social: {
     instagram: "https://instagram.com",
     facebook: "https://facebook.com",
-    whatsapp: "https://wa.me/919894080389"
+    whatsapp: "https://wa.me/918610011680"
   }
 };

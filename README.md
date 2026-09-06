@@ -8,8 +8,8 @@ A blazing-fast, lightweight, zero-dependency, and mobile-first website for **Kal
 
 - **Name:** Kalima Kerala Kitchen Hotel
 - **Address:** 37, Aziz Mulk 1st St, Thousand Lights West, Thousand Lights, Chennai, Tamil Nadu 600006
-- **Contact:** +91 98940 80389
-- **WhatsApp:** [+91 98940 80389](https://wa.me/919894080389)
+- **Contact:** +91 86100 11680
+- **WhatsApp:** [+91 86100 11680](https://wa.me/918610011680)
 - **Timings:** Monday – Sunday (11:30 AM – 11:00 PM)
 
 ---
@@ -22,7 +22,7 @@ A blazing-fast, lightweight, zero-dependency, and mobile-first website for **Kal
    - `assets/js/data/menuData.js`: Menu categories, dishes, prices, dietary tags, and images.
    - `assets/js/data/testimonialsData.js`: Customer reviews and ratings.
 3. **Interactive Menu Explorer**: Instant real-time search, category tabs (Biryani, Porotta, Seafood, Sadya, Curries, Snacks), dietary pills, and direct "Order on WhatsApp" buttons for each dish.
-4. **Instant WhatsApp Integration**: Pre-fills dish details or table reservations and routes directly to `+91 98940 80389`.
+4. **Instant WhatsApp Integration**: Pre-fills dish details or table reservations and routes directly to `+91 86100 11680`.
 5. **Google Maps Embed & Directions**: One-tap direct directions to `37, Aziz Mulk 1st St, Thousand Lights West`.
 
 ---
@@ -36,7 +36,6 @@ A blazing-fast, lightweight, zero-dependency, and mobile-first website for **Kal
 5. Your site is live immediately at `https://<your-username>.github.io/<repository-name>/` with **0 CORS errors**!
 
 ---
-
 ## ⚡ How to Deploy to Vercel (1-Click)
 
 1. Go to [vercel.com](https://vercel.com) and log in.
