@@ -8,8 +8,8 @@ A blazing-fast, lightweight, zero-dependency, and mobile-first website for **Kal
 
 - **Name:** Kalima Kerala Kitchen Hotel
 - **Address:** 37, Aziz Mulk 1st St, Thousand Lights West, Thousand Lights, Chennai, Tamil Nadu 600006
-- **Contact:** +91 86100 11680
-- **WhatsApp:** [+91 86100 11680](https://wa.me/918610011680)
+- **Contact:** +91 9894080389
+- **WhatsApp:** [+91 9894080389](https://wa.me/919894080389)
 - **Timings:** Monday – Sunday (11:30 AM – 11:00 PM)
 
 ---

@@ -6,13 +6,13 @@ export const restaurantInfo = {
   name: "Kalima Kerala Kitchen Hotel",
   tagline: "Authentic Malabar & Kerala Culinary Delights",
   subtitle: "Savor the rich heritage of God's Own Country in Thousand Lights, Chennai",
-  
+
   contact: {
-    phone: "+91 86100 11680",
-    rawPhone: "+918610011680",
-    whatsappNumber: "918610011680",
+    phone: "+91 9894080389",
+    rawPhone: "9894080389",
+    whatsappNumber: "9894080389",
     whatsappDefaultMsg: "Hello Kalima Kerala Kitchen, I would like to place an order / inquire about table reservation.",
-    email: "contact@kalimakitchen.com"
+    //email: "contact@kalimakitchen.com"
   },
 
   location: {
@@ -44,6 +44,6 @@ export const restaurantInfo = {
   social: {
     instagram: "https://instagram.com",
     facebook: "https://facebook.com",
-    whatsapp: "https://wa.me/918610011680"
+    whatsapp: "https://wa.me/919894080389"
   }
 };
