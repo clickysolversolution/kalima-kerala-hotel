@@ -22,7 +22,7 @@ A blazing-fast, lightweight, zero-dependency, and mobile-first website for **Kal
    - `assets/js/data/menuData.js`: Menu categories, dishes, prices, dietary tags, and images.
    - `assets/js/data/testimonialsData.js`: Customer reviews and ratings.
 3. **Interactive Menu Explorer**: Instant real-time search, category tabs (Biryani, Porotta, Seafood, Sadya, Curries, Snacks), dietary pills, and direct "Order on WhatsApp" buttons for each dish.
-4. **Instant WhatsApp Integration**: Pre-fills dish details or table reservations and routes directly to `+91 86100 11680`.
+4. **Instant WhatsApp Integration**: Pre-fills dish details or table reservations and routes directly to `+91 9894080389`.
 5. **Google Maps Embed & Directions**: One-tap direct directions to `37, Aziz Mulk 1st St, Thousand Lights West`.
 
 ---
